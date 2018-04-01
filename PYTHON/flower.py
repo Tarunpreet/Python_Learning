@@ -4,7 +4,7 @@ def dr_square(tur):
         tur.forward(100)
         tur.right(90)#take turn of 90 degree
 def tur():
-    window=turtle.Screen()
+    window=turtle.Screen()#init method in Screen class
     window.bgcolor("green")
     tarun=turtle.Turtle()#init method in Turtle class
     tarun.shape("turtle")

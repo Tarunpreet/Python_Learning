@@ -7,7 +7,7 @@ def rename():
     print(working)
     os.chdir(str(name))#CHANGE directory to path
     for file_name in file_list:
-      os.rename(file_name,file_name.translate(None,"1234567890"))#.String function translate string first table (what chat changes to what) second except those char
+    os.rename(file_name,file_name.translate(None,"1234567890"))#.String function translate string first table (what chat changes to what) second except those char
     os.chdir(working)
     working=os.getcwd()
     print(working)
