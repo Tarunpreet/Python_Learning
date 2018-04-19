@@ -24,7 +24,7 @@ while True:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
        
-        server.login("tarunpreet2697@gmail.com", "killermanss")
+        server.login("tarunpreet2697@gmail.com", "********")
         
         
         print('From: ' + fromaddr)
